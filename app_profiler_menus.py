@@ -239,22 +239,6 @@ if menu == "Welcome":
         st.session_state.menu = "Spectral Signatures"
         st.rerun()
 
-    st.markdown(
-        """
-          </div>
-          <div class="tiles">
-            <div class="tile"><span>🌱</span>Healthy</div>
-            <div class="tile"><span>🥀</span>Stressed</div>
-            <div class="tile"><span>📏</span>Wavelength</div>
-            <div class="tile"><span>📈</span>Interactive</div>
-            <div class="tile"><span>🛰️</span>VIS–NIR–SWIR</div>
-            <div class="tile"><span>⬇️</span>Export</div>
-          </div>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
 # -------------------------------
 # Spectral Signatures Page
 # -------------------------------
